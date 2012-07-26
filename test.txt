@@ -12,4 +12,6 @@ UserParameter=notification_analyzer_q_s[*],curl --silent 'http://themoneyconvert
 
 asdasd
 asasdasd
-asdasddas
+asdasddasdsfsdfsdfsdffsd\\
+
+dsfsdfds
