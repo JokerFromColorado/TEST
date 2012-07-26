@@ -1,2 +1,15 @@
 sdsfdsdf
 update xxx
+
+
+
+UserParameter=used_memory[*],curl --silent 'http://themoneyconverter.com/$1/rss.xml' | sed -r "s/<title>/\n<title>/g" | grep "$1/$2" | cut -f2 -d"=" | cut -f2 -d" "
+UserParameter=database_size[*],curl --silent 'http://themoneyconverter.com/$1/rss.xml' | sed -r "s/<title>/\n<title>/g" | grep "$1/$2" | cut -f2 -d"=" | cut -f2 -d" "
+UserParameter=text_indexsize[*],curl --silent 'http://themoneyconverter.com/$1/rss.xml' | sed -r "s/<title>/\n<title>/g" | grep "$1/$2" | cut -f2 -d"=" | cut -f2 -d" "
+UserParameter=pending_asynchronous_jobs[*],curl --silent 'http://themoneyconverter.com/$1/rss.xml' | sed -r "s/<title>/\n<title>/g" | grep "$1/$2" | cut -f2 -d"=" | cut -f2 -d" "
+UserParameter=notification_analyzer_q_s[*],curl --silent 'http://themoneyconverter.com/$1/rss.xml' | sed -r "s/<title>/\n<title>/g" | grep "$1/$2" | cut -f2 -d"=" | cut -f2 -d" "
+
+
+asdasd
+asasdasd
+asdasddas
